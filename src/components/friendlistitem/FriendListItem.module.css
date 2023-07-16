@@ -1,0 +1,36 @@
+.item {
+    position: relative;
+      display: flex;
+  width: 300px;
+  background-color: rgb(240, 238, 238);
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 24px;
+    box-shadow: 0 4px 14px rgba(77, 76, 76, 0.2);
+}
+
+.imgwrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.status {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 35px;
+    left: 5px;
+    border-radius: 50%;
+}
+
+.true {
+background-color: green;
+}
+
+.false {
+    background-color: red;
+}
