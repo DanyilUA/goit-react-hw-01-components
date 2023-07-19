@@ -3,10 +3,10 @@ import { Statistic } from './statiscitcs/Statisctics';
 import { FriendList } from './friendlist/FriendList';
 import { Transaction } from './transactionhistory/TransactionHistory';
 
-import friends from './data/friends.json';
-import user from './data/user.json';
-import staty from './data/data.json';
-import transactions from './data/transactions.json';
+import friends from '../data/friends.json';
+import user from '../data/user.json';
+import staty from '../data/data.json';
+import transactions from '../data/transactions.json';
 
 import css from './App.module.css';
 
